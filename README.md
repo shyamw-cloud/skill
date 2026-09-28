@@ -1,17 +1,15 @@
-# Smithery Skill Pack Repository
+# Smithery Skill Repository
 
-A comprehensive collection of development and business AI skills organized into modular, reusable packages for the Smithery.ai ecosystem.
+A modular collection of Smithery-ready skill packs organized by category. This repository is designed to serve as an extensible library of AI-powered skills for business, engineering, operations, product, and AI orchestration workflows.
 
 ## Overview
 
-This repository is designed to house multiple Smithery-ready skill packages. The initial implementation includes a development-focused pack and a business-oriented pack, each with its own README, configuration, source module, examples, and tests.
+This repo contains multiple category-based skill packs. Each skill pack is a self-contained Python package with its own README, metadata, example usage, and tests. The goal is to make it easy to add, browse, and extend skills for different business and technical use cases.
 
-The repository has now been expanded into category-based skill packs to cover more real-world business and AI use cases.
+## Skill Categories
 
-## Skill Packs Included
-
-### 1. Development Skill Pack
-Focus: code quality, frontend design, testing, architecture, automation, and repository workflow.
+### 1. Development
+Directory: `skill-dev`
 
 Core skills:
 - refactor
@@ -23,8 +21,8 @@ Core skills:
 - mcp-builder
 - repo-contribution
 
-### 2. Business Skill Pack
-Focus: productivity, analytics, automation, CRM, ERP-adjacent workflows, and business reporting.
+### 2. Business
+Directory: `skill-business`
 
 Core skills:
 - business-analytics
@@ -36,26 +34,115 @@ Core skills:
 - sentiment-analysis
 - inventory-forecasting
 
-### 3. Analytics Skill Pack
-Focus: KPI reporting, trend analysis, anomaly detection, and executive insight generation.
+### 3. Analytics
+Directory: `skill-analytics`
 
-### 4. Marketing Skill Pack
-Focus: campaign planning, customer segmentation, SEO, content strategy, and audience insights.
+Core skills:
+- dashboard-analysis
+- trend-analysis
+- anomaly-detector
+- kpi-reporting
+- executive-summary
+- market-insight-generator
 
-### 5. Sales Skill Pack
-Focus: lead scoring, forecasting, proposal generation, enablement, and pipeline tracking.
+### 4. Marketing
+Directory: `skill-marketing`
 
-### 6. HR Skill Pack
-Focus: hiring, onboarding, performance review analysis, and employee engagement support.
+Core skills:
+- campaign-planner
+- content-strategy
+- seo-audit
+- audience-segmentation
+- brand-positioning
+- lead-nurture-planner
 
-### 7. Customer Support Skill Pack
-Focus: ticket triage, helpdesk automation, response drafting, and issue resolution workflows.
+### 5. Sales
+Directory: `skill-sales`
 
-### 8. Automation Skill Pack
-Focus: workflow automation, integrations, approval flows, notifications, and process optimization.
+Core skills:
+- lead-prioritization
+- sales-forecast
+- proposal-generator
+- pipeline-review
+- renewal-risk-analyzer
+- sales-enablement
 
-### 9. Operations Skill Pack
-Focus: process mapping, resource planning, vendor management, and operational efficiency.
+### 6. HR
+Directory: `skill-hr`
+
+Core skills:
+- hiring-assistant
+- onboarding-planner
+- performance-review-analyzer
+- employee-engagement-insights
+- talent-pipeline-review
+- policy-clarifier
+
+### 7. Customer Support
+Directory: `skill-customer-support`
+
+Core skills:
+- ticket-triage
+- helpdesk-automation
+- response-drafter
+- issue-resolution-guide
+- feedback-classifier
+- customer-health-summary
+
+### 8. Automation
+Directory: `skill-automation`
+
+Core skills:
+- workflow-automation
+- approval-router
+- notification-engine
+- task-scheduler
+- document-routing
+- integration-orchestrator
+
+### 9. Operations
+Directory: `skill-operations`
+
+Core skills:
+- process-mapping
+- resource-planning
+- vendor-management
+- capacity-analysis
+- service-level-review
+- incident-prioritization
+
+### 10. AI Agent
+Directory: `skill-ai-agent`
+
+Core skills:
+- prompt-optimizer
+- tool-router
+- multi-agent-planner
+- workflow-coordinator
+- knowledge-base-curator
+- reasoning-assistant
+
+### 11. Security & Compliance
+Directory: `skill-security`
+
+Core skills:
+- threat-modeling
+- vulnerability-review
+- secure-code-checker
+- access-audit
+- privacy-risk-assessment
+- policy-compliance-check
+
+### 12. Product & Strategy
+Directory: `skill-product`
+
+Core skills:
+- roadmap-builder
+- feature-prioritizer
+- competitive-analysis
+- pricing-strategy
+- customer-interview-summarizer
+- decision-support-assistant
 
 ---
 
@@ -66,131 +153,17 @@ skill/
 ├── README.md
 ├── LICENSE
 ├── skill-dev/
-│   ├── README.md
-│   ├── smithery.yaml
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── .gitignore
-│   ├── src/
-│   │   └── dev_skill/
-│   │       ├── __init__.py
-│   │       └── skill.py
-│   ├── examples/
-│   │   └── usage_example.py
-│   └── tests/
-│       └── test_skill.py
 ├── skill-business/
-│   ├── README.md
-│   ├── smithery.yaml
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── .gitignore
-│   ├── src/
-│   │   └── business_skill/
-│   │       ├── __init__.py
-│   │       └── skill.py
-│   ├── examples/
-│   │   └── usage_example.py
-│   └── tests/
-│       └── test_skill.py
 ├── skill-analytics/
-│   ├── README.md
-│   ├── smithery.yaml
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── .gitignore
-│   ├── src/
-│   │   └── analytics_skill/
-│   │       ├── __init__.py
-│   │       └── skill.py
-│   ├── examples/
-│   │   └── usage_example.py
-│   └── tests/
-│       └── test_skill.py
 ├── skill-marketing/
-│   ├── README.md
-│   ├── smithery.yaml
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── .gitignore
-│   ├── src/
-│   │   └── marketing_skill/
-│   │       ├── __init__.py
-│   │       └── skill.py
-│   ├── examples/
-│   │   └── usage_example.py
-│   └── tests/
-│       └── test_skill.py
 ├── skill-sales/
-│   ├── README.md
-│   ├── smithery.yaml
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── .gitignore
-│   ├── src/
-│   │   └── sales_skill/
-│   │       ├── __init__.py
-│   │       └── skill.py
-│   ├── examples/
-│   │   └── usage_example.py
-│   └── tests/
-│       └── test_skill.py
 ├── skill-hr/
-│   ├── README.md
-│   ├── smithery.yaml
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── .gitignore
-│   ├── src/
-│   │   └── hr_skill/
-│   │       ├── __init__.py
-│   │       └── skill.py
-│   ├── examples/
-│   │   └── usage_example.py
-│   └── tests/
-│       └── test_skill.py
 ├── skill-customer-support/
-│   ├── README.md
-│   ├── smithery.yaml
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── .gitignore
-│   ├── src/
-│   │   └── support_skill/
-│   │       ├── __init__.py
-│   │       └── skill.py
-│   ├── examples/
-│   │   └── usage_example.py
-│   └── tests/
-│       └── test_skill.py
 ├── skill-automation/
-│   ├── README.md
-│   ├── smithery.yaml
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── .gitignore
-│   ├── src/
-│   │   └── automation_skill/
-│   │       ├── __init__.py
-│   │       └── skill.py
-│   ├── examples/
-│   │   └── usage_example.py
-│   └── tests/
-│       └── test_skill.py
 ├── skill-operations/
-│   ├── README.md
-│   ├── smithery.yaml
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── .gitignore
-│   ├── src/
-│   │   └── operations_skill/
-│   │       ├── __init__.py
-│   │       └── skill.py
-│   ├── examples/
-│   │   └── usage_example.py
-│   └── tests/
-│       └── test_skill.py
+├── skill-ai-agent/
+├── skill-security/
+├── skill-product/
 └── .github/
     └── workflows/
         └── ci.yml
@@ -198,32 +171,44 @@ skill/
 
 ---
 
-## Expanded Categories
+## How to Use
 
-- Development
-- Business
-- Analytics
-- Marketing
-- Sales
-- HR
-- Customer Support
-- Automation
-- Operations
+Each directory is a standalone skill pack. You can run or test any pack individually.
+
+Example:
+
+```bash
+cd skill-dev
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m dev_skill --list
+```
+
+Or:
+
+```bash
+cd skill-business
+python -m business_skill --list
+```
 
 ---
 
-## Smithery Packaging
+## Future Expansion
 
-Each package includes a `smithery.yaml` manifest so it can be used as an independent Smithery skill package or as part of a broader multi-skill catalog.
+This repository can be extended with more domain packs such as:
+- Finance
+- Legal
+- Procurement
+- DevOps/Cloud
+- Data Engineering
+- Customer Success
+- AI Safety
+- Education
+- Healthcare
 
 ---
 
 ## License
 
 MIT License
-
----
-
-## Next Step
-
-The repository is now structured around category-based skill packs for real-world AI workflow usage.
