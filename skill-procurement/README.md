@@ -1,6 +1,6 @@
 # Procurement Skill Pack
 
-A Smithery-ready collection of procurement and vendor management skills for sourcing, evaluation, and negotiation support.
+A Skill Forge-ready collection of procurement and vendor management skills for sourcing, evaluation, and negotiation support.
 
 ## Included Skills
 

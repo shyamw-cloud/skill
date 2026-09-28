@@ -1,41 +1,17 @@
 # Business Skill Pack
 
-A Smithery-ready collection of common business and enterprise AI skills for analytics, automation, reporting, CRM, and workflow optimization.
-
-## Overview
-
-This package contains practical business-focused AI skills designed for operations, sales, finance, support, and management work.
+A Skill Forge-ready collection of business and operational skills for analytics, automation, CRM, and workflow optimization.
 
 ## Included Skills
 
-- `business-analytics` — generate KPI frameworks and performance insights
-- `sales-forecasting` — predict revenue, demand, and sales trends
-- `crm-automation` — manage leads, records, and customer workflows
-- `financial-analysis` — analyze budgets, spend, and ROI
-- `document-extraction` — extract structured data from PDFs, forms, and emails
-- `workflow-optimization` — identify bottlenecks and improve operations
-- `sentiment-analysis` — interpret customer feedback and reviews
-- `inventory-forecasting` — predict demand and control stock levels
-
-## Folder Structure
-
-```text
-business-skill/
-├── README.md
-├── smithery.yaml
-├── requirements.txt
-├── pyproject.toml
-├── .gitignore
-├── src/
-│   └── business_skill/
-│       ├── __init__.py
-│       └── skill.py
-├── examples/
-│   └── usage_example.py
-├── tests/
-│   └── test_skill.py
-└── LICENSE
-```
+- `business-analytics`
+- `sales-forecasting`
+- `crm-automation`
+- `financial-analysis`
+- `document-extraction`
+- `workflow-optimization`
+- `sentiment-analysis`
+- `inventory-forecasting`
 
 ## Quick Start
 
@@ -45,13 +21,3 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python -m business_skill --list
 ```
-
-## Example
-
-```bash
-python -m business_skill --skill business-analytics --prompt "Analyze Q3 sales performance and list top risks."
-```
-
-## License
-
-MIT

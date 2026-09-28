@@ -1,6 +1,6 @@
 # Customer Support Skill Pack
 
-A Smithery-ready collection of support and service skills for triage, ticket handling, and customer communication.
+A Skill Forge-ready collection of support and service skills for triage, automation, and response drafting.
 
 ## Included Skills
 

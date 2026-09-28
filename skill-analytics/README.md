@@ -1,6 +1,6 @@
 # Analytics Skill Pack
 
-A Smithery-ready collection of analytics and insight skills for performance review, forecasting, anomaly detection, and executive reporting.
+A Skill Forge-ready collection of analytics and reporting skills for KPI analysis, forecasting, and insight generation.
 
 ## Included Skills
 

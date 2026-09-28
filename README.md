@@ -1,12 +1,8 @@
-# Smithery Skill Repository
-
-A modular collection of Smithery-ready skill packs organized by category. This repository is designed to serve as an extensible library of AI-powered skills for business, engineering, operations, product, and AI orchestration workflows.
-
 ## Overview
 
 This repo contains multiple category-based skill packs. Each skill pack is a self-contained Python package with its own README, metadata, example usage, and tests. The goal is to make it easy to add, browse, and extend skills for different business and technical use cases.
 
-## Skill Categories
+---
 
 ### 1. Development
 Directory: `skill-dev`

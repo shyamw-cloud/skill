@@ -1,6 +1,6 @@
 # Operations Skill Pack
 
-A Smithery-ready collection of operations and process skills for workflow mapping, resource planning, and operational efficiency.
+A Skill Forge-ready collection of operations and process skills for workflow mapping, resource planning, and operational efficiency.
 
 ## Included Skills
 

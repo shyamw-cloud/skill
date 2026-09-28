@@ -1,7 +1,7 @@
-"""Development skill pack for Smithery-compatible workflows.
+"""Development skill pack for Skill Forge-compatible workflows.
 
 This module exposes a lightweight catalog of development-related skills that can be
-used as the basis for a larger Smithery skill package. It is intentionally
+used as the basis for a larger Skill Forge skill package. It is intentionally
 simple and dependency-light so it can be extended without additional setup.
 """
 
@@ -89,7 +89,7 @@ def run_skill(skill_name: str, prompt: str) -> str:
     """Return a simple, deterministic template response for a requested skill.
 
     This intentionally keeps the implementation lightweight while still making the
-    repo useful as a starting point for real Smithery integrations.
+    repo useful as a starting point for real Skill Forge integrations.
     """
 
     catalog = {item.name: item for item in get_skill_catalog()}

@@ -1,6 +1,6 @@
 # Security & Compliance Skill Pack
 
-A Smithery-ready collection of security and compliance skills for threat review, secure workflows, and governance support.
+A Skill Forge-ready collection of security and compliance skills for threat review, governance, and secure operations.
 
 ## Included Skills
 

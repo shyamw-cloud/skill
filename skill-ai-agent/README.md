@@ -1,6 +1,6 @@
 # AI Agent Skill Pack
 
-A Smithery-ready collection of agent and AI orchestration skills for prompting, routing, workflows, and multi-agent coordination.
+A Skill Forge-ready collection of agent and AI orchestration skills for prompting, routing, workflows, and multi-agent coordination.
 
 ## Included Skills
 

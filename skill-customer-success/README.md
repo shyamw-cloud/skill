@@ -1,15 +1,15 @@
 # Customer Success Skill Pack
 
-A Smithery-ready collection of customer success skills for retention, onboarding, health tracking, and renewal support.
+A Skill Forge-ready collection of customer success skills for onboarding, health analysis, and retention planning.
 
 ## Included Skills
 
-- `customer-health-score`
-- `renewal-risk-analyzer`
-- `onboarding-roadmap`
-- `usage-pattern-analyzer`
-- `success-plan-builder`
-- `churn-risk-review`
+- `onboarding-planner`
+- `health-analysis`
+- `retention-plan`
+- `renewal-risk-review`
+- `customer-journey-insights`
+- `success-forecasting`
 
 ## Quick Start
 

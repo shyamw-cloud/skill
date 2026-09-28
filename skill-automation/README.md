@@ -1,6 +1,6 @@
 # Automation Skill Pack
 
-A Smithery-ready collection of automation and workflow skills for business process orchestration.
+A Skill Forge-ready collection of automation and workflow skills for approvals, routing, and orchestration.
 
 ## Included Skills
 

@@ -1,6 +1,6 @@
 # Product & Strategy Skill Pack
 
-A Smithery-ready collection of product and strategy skills for roadmaps, planning, growth, and market decision support.
+A Skill Forge-ready collection of product and strategy skills for roadmaps, planning, growth, and market decision support.
 
 ## Included Skills
 

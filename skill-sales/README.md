@@ -1,6 +1,6 @@
 # Sales Skill Pack
 
-A Smithery-ready collection of sales and revenue skills for lead prioritization, pipeline strategy, and forecasting.
+A Skill Forge-ready collection of sales and pipeline skills for forecasting, qualification, and revenue planning.
 
 ## Included Skills
 

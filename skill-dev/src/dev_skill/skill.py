@@ -1,4 +1,4 @@
-"""Development skill catalog for engineering-related Smithery skills."""
+"""Development skill catalog for engineering-related Skill Forge skills."""
 
 from __future__ import annotations
 

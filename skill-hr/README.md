@@ -1,6 +1,6 @@
 # HR Skill Pack
 
-A Smithery-ready collection of HR and people operations skills for hiring and employee lifecycle support.
+A Skill Forge-ready collection of HR and people operations skills for hiring and employee lifecycle support.
 
 ## Included Skills
 

@@ -1,6 +1,6 @@
 # Finance Skill Pack
 
-A Smithery-ready collection of finance and planning skills for budget analysis, forecasting, ROI review, and cash flow decisions.
+A Skill Forge-ready collection of finance and planning skills for budget analysis, forecasting, ROI review, and cash flow decisions.
 
 ## Included Skills
 

@@ -1,6 +1,6 @@
 # Legal Skill Pack
 
-A Smithery-ready collection of legal and compliance skills for contract review, policy support, and governance tasks.
+A Skill Forge-ready collection of legal and compliance skills for contract review, policy support, and governance tasks.
 
 ## Included Skills
 

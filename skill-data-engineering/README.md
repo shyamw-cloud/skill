@@ -1,13 +1,13 @@
 # Data Engineering Skill Pack
 
-A Smithery-ready collection of data engineering skills for pipelines, data modeling, ETL design, and quality checks.
+A Skill Forge-ready collection of data engineering skills for pipelines, schemas, and ETL architecture.
 
 ## Included Skills
 
-- `data-pipeline-builder`
-- `etl-design`
-- `schema-designer`
-- `data-quality-audit`
+- `pipeline-design`
+- `schema-review`
+- `etl-optimizer`
+- `data-quality-check`
 - `warehouse-planning`
 - `streaming-architecture`
 

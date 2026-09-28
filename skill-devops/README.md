@@ -1,15 +1,15 @@
-# DevOps & Cloud Skill Pack
+# DevOps Skill Pack
 
-A Smithery-ready collection of DevOps and cloud skills for deployment automation, infrastructure health, and delivery optimization.
+A Skill Forge-ready collection of DevOps and infrastructure skills for deployment, cloud, and operational reliability.
 
 ## Included Skills
 
-- `docker-setup`
-- `ci-cd-builder`
-- `kubernetes-ops`
-- `cloud-cost-optimizer`
-- `deployment-checklist`
-- `infra-health-review`
+- `deployment-planning`
+- `ci-cd-review`
+- `incident-response`
+- `infra-audit`
+- `cloud-cost-review`
+- `system-health-check`
 
 ## Quick Start
 

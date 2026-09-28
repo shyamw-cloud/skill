@@ -1,6 +1,6 @@
 # Marketing Skill Pack
 
-A Smithery-ready collection of marketing and audience skills for campaigns, segmentation, content strategy, and customer engagement.
+A Skill Forge-ready collection of marketing and audience skills for campaigns, segmentation, content strategy, and customer engagement.
 
 ## Included Skills
 
