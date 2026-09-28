@@ -1,0 +1,7 @@
+name: legal-skill-pack
+version: 0.1.0
+description: Legal and governance skills for contract review and risk assessment.
+entrypoint: src/legal_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

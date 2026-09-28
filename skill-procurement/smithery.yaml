@@ -1,0 +1,7 @@
+name: procurement-skill-pack
+version: 0.1.0
+description: Procurement skills for vendor assessment, sourcing, and negotiation support.
+entrypoint: src/procurement_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

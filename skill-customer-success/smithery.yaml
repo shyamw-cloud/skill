@@ -1,0 +1,7 @@
+name: customer-success-skill-pack
+version: 0.1.0
+description: Customer success skills for onboarding, health analysis, and retention planning.
+entrypoint: src/customer_success_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0
