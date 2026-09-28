@@ -1,0 +1,7 @@
+name: agent-skill-manifest
+version: 0.1.0
+description: AI agent and orchestration skills for routing, prompt optimization, and workflow coordination.
+entrypoint: src/ai_agent_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0
