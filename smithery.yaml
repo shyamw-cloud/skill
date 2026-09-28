@@ -1,0 +1,10 @@
+name: development-skill-pack
+version: 0.1.0
+description: |
+  A Smithery-ready development skill pack for refactoring, frontend design,
+  architecture planning, automated testing, repository contributions,
+  and tool integration workflows.
+entrypoint: src/skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0
