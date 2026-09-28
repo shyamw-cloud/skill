@@ -1,0 +1,7 @@
+name: response-loop-manifest
+version: 0.1.0
+description: Support skills for triage, service automation, and response drafting.
+entrypoint: src/support_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

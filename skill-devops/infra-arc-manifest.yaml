@@ -1,0 +1,7 @@
+name: infra-arc-manifest
+version: 0.1.0
+description: DevOps and cloud skills for deployments, CI/CD, and infrastructure health.
+entrypoint: src/devops_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

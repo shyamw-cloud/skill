@@ -1,0 +1,7 @@
+name: atlas-cortex-manifest
+version: 0.1.0
+description: A premium business skill pack for analytics, automation, CRM workflows, reporting, and enterprise process optimization.
+entrypoint: src/business_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

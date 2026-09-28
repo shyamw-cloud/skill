@@ -1,0 +1,7 @@
+name: pipeline-loom-manifest
+version: 0.1.0
+description: Data engineering skills for pipelines, schemas, and ETL architecture.
+entrypoint: src/data_engineering_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

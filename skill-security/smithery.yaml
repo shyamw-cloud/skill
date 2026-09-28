@@ -1,7 +1,3 @@
-name: security-skill-pack
-version: 0.1.0
-description: Security and compliance skills for threat review, governance, and secure operations.
-entrypoint: src/security_skill/skill.py
-runtime: python
-requirements:
-  - pydantic>=2.0.0
+# DEPRECATED: This file has been renamed to guardrail-matrix-manifest.yaml
+# Please use skill-security/guardrail-matrix-manifest.yaml instead.
+# This file can be safely deleted after migration is complete.

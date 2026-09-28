@@ -1,0 +1,7 @@
+name: product-zenith-manifest
+version: 0.1.0
+description: Product and strategy skills for product planning, roadmaps, and competitive analysis.
+entrypoint: src/product_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

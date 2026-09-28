@@ -1,0 +1,7 @@
+name: people-vertex-manifest
+version: 0.1.0
+description: HR and people operations skills for hiring, onboarding, and engagement support.
+entrypoint: src/hr_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

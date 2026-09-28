@@ -1,0 +1,7 @@
+name: skillforge-manifest
+version: 0.1.0
+description: Premium development skill pack for refactoring, frontend design, architecture planning, automated testing, repository contributions, and tool integration workflows.
+entrypoint: src/skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

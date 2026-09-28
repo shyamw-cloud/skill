@@ -1,0 +1,7 @@
+name: code-sculpt-manifest
+version: 0.1.0
+description: A premium development skill pack for coding, UI design, architecture, testing, and repository automation workflows.
+entrypoint: src/dev_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

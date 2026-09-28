@@ -1,7 +1,3 @@
-name: automation-skill-pack
-version: 0.1.0
-description: Workflow automation skills for routing, approvals, integrations, and orchestration.
-entrypoint: src/automation_skill/skill.py
-runtime: python
-requirements:
-  - pydantic>=2.0.0
+# DEPRECATED: This file has been renamed to flowcraft-manifest.yaml
+# Please use skill-automation/flowcraft-manifest.yaml instead.
+# This file can be safely deleted after migration is complete.

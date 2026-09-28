@@ -1,0 +1,7 @@
+name: ops-signal-manifest
+version: 0.1.0
+description: Operations skills for process mapping, capacity planning, and efficiency optimization.
+entrypoint: src/operations_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

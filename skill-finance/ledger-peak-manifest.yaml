@@ -1,0 +1,7 @@
+name: ledger-peak-manifest
+version: 0.1.0
+description: Finance skills for budgeting, ROI review, and cash flow planning.
+entrypoint: src/finance_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

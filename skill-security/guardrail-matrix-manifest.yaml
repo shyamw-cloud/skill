@@ -1,0 +1,7 @@
+name: guardrail-matrix-manifest
+version: 0.1.0
+description: Security and compliance skills for threat review, governance, and secure operations.
+entrypoint: src/security_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

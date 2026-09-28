@@ -1,7 +1,3 @@
-name: analytics-skill-pack
-version: 0.1.0
-description: Analytics and reporting skills for KPI analysis, forecasting, and insight generation.
-entrypoint: src/analytics_skill/skill.py
-runtime: python
-requirements:
-  - pydantic>=2.0.0
+# DEPRECATED: This file has been renamed to insight-hub-manifest.yaml
+# Please use skill-analytics/insight-hub-manifest.yaml instead.
+# This file can be safely deleted after migration is complete.

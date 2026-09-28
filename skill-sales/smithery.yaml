@@ -1,7 +1,3 @@
-name: sales-skill-pack
-version: 0.1.0
-description: Sales skills for forecasting, lead prioritization, and pipeline planning.
-entrypoint: src/sales_skill/skill.py
-runtime: python
-requirements:
-  - pydantic>=2.0.0
+# DEPRECATED: This file has been renamed to velocity-grid-manifest.yaml
+# Please use skill-sales/velocity-grid-manifest.yaml instead.
+# This file can be safely deleted after migration is complete.
