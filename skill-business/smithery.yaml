@@ -1,0 +1,9 @@
+name: business-skill-pack
+version: 0.1.0
+description: |
+  A Smithery-ready business skill pack for analytics, automation,
+  CRM workflows, reporting, and enterprise process optimization.
+entrypoint: src/business_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0
