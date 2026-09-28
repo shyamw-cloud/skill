@@ -6,6 +6,8 @@ A comprehensive collection of development and business AI skills organized into 
 
 This repository is designed to house multiple Smithery-ready skill packages. The initial implementation includes a development-focused pack and a business-oriented pack, each with its own README, configuration, source module, examples, and tests.
 
+The repository has now been expanded into category-based skill packs to cover more real-world business and AI use cases.
+
 ## Skill Packs Included
 
 ### 1. Development Skill Pack
@@ -33,6 +35,27 @@ Core skills:
 - workflow-optimization
 - sentiment-analysis
 - inventory-forecasting
+
+### 3. Analytics Skill Pack
+Focus: KPI reporting, trend analysis, anomaly detection, and executive insight generation.
+
+### 4. Marketing Skill Pack
+Focus: campaign planning, customer segmentation, SEO, content strategy, and audience insights.
+
+### 5. Sales Skill Pack
+Focus: lead scoring, forecasting, proposal generation, enablement, and pipeline tracking.
+
+### 6. HR Skill Pack
+Focus: hiring, onboarding, performance review analysis, and employee engagement support.
+
+### 7. Customer Support Skill Pack
+Focus: ticket triage, helpdesk automation, response drafting, and issue resolution workflows.
+
+### 8. Automation Skill Pack
+Focus: workflow automation, integrations, approval flows, notifications, and process optimization.
+
+### 9. Operations Skill Pack
+Focus: process mapping, resource planning, vendor management, and operational efficiency.
 
 ---
 
@@ -70,6 +93,104 @@ skill/
 │   │   └── usage_example.py
 │   └── tests/
 │       └── test_skill.py
+├── skill-analytics/
+│   ├── README.md
+│   ├── smithery.yaml
+│   ├── requirements.txt
+│   ├── pyproject.toml
+│   ├── .gitignore
+│   ├── src/
+│   │   └── analytics_skill/
+│   │       ├── __init__.py
+│   │       └── skill.py
+│   ├── examples/
+│   │   └── usage_example.py
+│   └── tests/
+│       └── test_skill.py
+├── skill-marketing/
+│   ├── README.md
+│   ├── smithery.yaml
+│   ├── requirements.txt
+│   ├── pyproject.toml
+│   ├── .gitignore
+│   ├── src/
+│   │   └── marketing_skill/
+│   │       ├── __init__.py
+│   │       └── skill.py
+│   ├── examples/
+│   │   └── usage_example.py
+│   └── tests/
+│       └── test_skill.py
+├── skill-sales/
+│   ├── README.md
+│   ├── smithery.yaml
+│   ├── requirements.txt
+│   ├── pyproject.toml
+│   ├── .gitignore
+│   ├── src/
+│   │   └── sales_skill/
+│   │       ├── __init__.py
+│   │       └── skill.py
+│   ├── examples/
+│   │   └── usage_example.py
+│   └── tests/
+│       └── test_skill.py
+├── skill-hr/
+│   ├── README.md
+│   ├── smithery.yaml
+│   ├── requirements.txt
+│   ├── pyproject.toml
+│   ├── .gitignore
+│   ├── src/
+│   │   └── hr_skill/
+│   │       ├── __init__.py
+│   │       └── skill.py
+│   ├── examples/
+│   │   └── usage_example.py
+│   └── tests/
+│       └── test_skill.py
+├── skill-customer-support/
+│   ├── README.md
+│   ├── smithery.yaml
+│   ├── requirements.txt
+│   ├── pyproject.toml
+│   ├── .gitignore
+│   ├── src/
+│   │   └── support_skill/
+│   │       ├── __init__.py
+│   │       └── skill.py
+│   ├── examples/
+│   │   └── usage_example.py
+│   └── tests/
+│       └── test_skill.py
+├── skill-automation/
+│   ├── README.md
+│   ├── smithery.yaml
+│   ├── requirements.txt
+│   ├── pyproject.toml
+│   ├── .gitignore
+│   ├── src/
+│   │   └── automation_skill/
+│   │       ├── __init__.py
+│   │       └── skill.py
+│   ├── examples/
+│   │   └── usage_example.py
+│   └── tests/
+│       └── test_skill.py
+├── skill-operations/
+│   ├── README.md
+│   ├── smithery.yaml
+│   ├── requirements.txt
+│   ├── pyproject.toml
+│   ├── .gitignore
+│   ├── src/
+│   │   └── operations_skill/
+│   │       ├── __init__.py
+│   │       └── skill.py
+│   ├── examples/
+│   │   └── usage_example.py
+│   └── tests/
+│       └── test_skill.py
 └── .github/
     └── workflows/
         └── ci.yml
@@ -77,67 +198,17 @@ skill/
 
 ---
 
-## Development Skill Pack
+## Expanded Categories
 
-### Purpose
-The development pack contains practical skills for engineering teams, AI-assisted coding, architecture planning, and software delivery.
-
-### Quick Start
-```bash
-cd skill-dev
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python -m dev_skill --list
-```
-
---
-
-## Business Skill Pack
-
-### Purpose
-The business pack focuses on common enterprise AI use cases such as sales analytics, process automation, customer sentiment review, financial analysis, and CRM workflow enhancement.
-
-### Quick Start
-```bash
-cd skill-business
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python -m business_skill --list
-```
-
----
-
-## Common Business Skills Included
-
-These are the common business and enterprise AI skill areas represented in the business pack:
-
-- Business analytics and KPI reporting
-- Sales forecasting and pipeline optimization
-- CRM automation and lead management
-- Financial analysis and budget tracking
-- Document extraction and form processing
-- Workflow optimization and automation
-- Customer sentiment and review analysis
-- Inventory demand forecasting
-- Data processing and business insight generation
-- Automation for repetitive enterprise tasks
-
----
-
-## Common Development Skills Included
-
-These are the commonly used developer-focused skill areas represented in the development pack:
-
-- Refactoring for maintainability and clarity
-- Frontend design and UI review
-- Architecture decision support and diagram generation
-- Testing and verification workflows
-- Browser automation and web QA
-- MCP/server integration and tool building
-- Repository contribution and PR best practices
-- Code review and implementation validation
+- Development
+- Business
+- Analytics
+- Marketing
+- Sales
+- HR
+- Customer Support
+- Automation
+- Operations
 
 ---
 
@@ -155,4 +226,4 @@ MIT License
 
 ## Next Step
 
-The repository is now structured to support separate development and business skill packages, with a top-level README explaining the overall system.
+The repository is now structured around category-based skill packs for real-world AI workflow usage.

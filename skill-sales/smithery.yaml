@@ -1,0 +1,7 @@
+name: sales-skill-pack
+version: 0.1.0
+description: Sales skills for forecasting, lead prioritization, and pipeline planning.
+entrypoint: src/sales_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0

@@ -1,0 +1,7 @@
+name: marketing-skill-pack
+version: 0.1.0
+description: Marketing skills for audience segmentation, campaign planning, and content strategy.
+entrypoint: src/marketing_skill/skill.py
+runtime: python
+requirements:
+  - pydantic>=2.0.0
